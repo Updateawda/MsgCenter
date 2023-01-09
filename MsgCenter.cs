@@ -4,7 +4,7 @@ using System;
 
 
 #region 基于委托的事件中心
-public class MsgCenter : SingleTon<MsgCenter>
+public class MsgCenter : Singetoln<MsgCenter>
 {
     //存储消息的集合
     Dictionary<string, Action<Notification>> m_MsgDicts = new Dictionary<string, Action<Notification>>();
